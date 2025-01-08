@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Arranhador Cacto",
+      "preco": "289,90",
+      "imagem": "./assets/arranhador1.png"
+    },
+    {
+      "id": "2",
+      "nome": "Brinquedo Interativo",
+      "preco": "24,40",
+      "imagem": "./assets/brinquedo1.png"
+    },
+    {
+      "id": "3",
+      "nome": "Bebedouro c/ filtro",
+      "preco": "175,00",
+      "imagem": "./assets/bebedouro1.png"
+    },
+    {
+      "id": "4",
+      "nome": "Arranhador Mario",
+      "preco": "589,37",
+      "imagem": "./assets/arranhador2.png"
+    },
+    {
+      "id": "5",
+      "nome": "Banheiro fechado",
+      "preco": "87,50",
+      "imagem": "./assets/caixaareia1.png"
+    },
+    {
+      "id": "6",
+      "nome": "Túnel",
+      "preco": "38,70",
+      "imagem": "./assets/tunel.png"
+    },
+    {
+      "id": "84ba",
+      "nome": "Casinha Para Gatos",
+      "preco": "161,41",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_897956-MLB78198700535_082024-O.webp"
+    },
+    {
+      "id": "40e9",
+      "nome": "Cat Pizza",
+      "preco": "28,29",
+      "imagem": "https://www.petlove.com.br/images/products/170003/product/7898947774947.jpg?1627562356"
+    },
+    {
+      "id": "559f",
+      "nome": "Peixe Elétrico",
+      "preco": "29,10",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_732809-MLA79908282844_102024-O.webp"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rammetto+One&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Rammetto+One&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --preto: #2E2E2E;
+    --amarelo: #EFD158;
+    --branco: #F1F2F4;
+    --vermelho: #8B0000;
+}
+
+/*Geral*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--amarelo);
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 16px;
+    background-color: var(--preto);
+    padding: 10px 20px;
+    height: auto;
+    text-align: center;    
+}
+
+.titulo-site {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--amarelo);
+    font-size: 18px;
+}
+
+.logo-site {
+    width: 50px;
+    align-items: center;
+    object-fit: contain;
+}     
+
+.slogan-site {    
+    font-size: 18px;
+}
+
+.titulo-slogan {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Main*/
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;           
+}
+
+/*Produtos Cadastrados*/
+
+.produtos-cadastrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 741px;
+    height: auto;    
+    background-color: var(--branco);    
+    border-radius: 16px;
+    padding: 80px 10px 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    flex-shrink: 0; /* Evita encolher */
+    flex-grow: 0; /* Evita expandir */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-evenly;
+    border-radius: 16px;
+    background-color: var(--vermelho) !important;
+    padding-bottom: 10px;
+    width: 212px;
+       
+}
+
+.titulo-produtos-cadastrados {
+    align-items: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 24px;
+    color: var(--vermelho);
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -64px;
+    margin-left: 260px;    
+}        
+
+.produtos-container {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;        
+    justify-content:space-evenly;
+    gap: 20px;
+       
+}   
+
+.card-container--info {
+    color: var(--branco);
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.card-container--info h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: weight;
+    font-style: normal;
+    color: var(--branco);
+}
+
+.img-container {       
+    margin-top: -5px;
+    width: 212px; 
+    height: 264px;
+    border-radius: 16px;    
+}
+
+.img-container img {
+    width: 212px; 
+    height: 264px;
+    border-radius: 16px;    
+    
+}    
+
+.card-container--value {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-right: 10px;
+    margin-left: 70px;
+    margin-top: none;
+    
+}
+
+.delete-button {
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}    
+    
+
+/*Adicionar Produtos*/
+
+.adicionar-produtos {        
+    background-color: var(--vermelho);
+    border-radius: 16px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    gap: 48px;
+    height: 350px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);    
+}
+
+.titulo-adicionar-produtos {
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    color: var(--branco);
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 24px;
+    margin-bottom: -64px;   
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: center; 
+    margin: 0 auto;  
+    height: 400px;    
+    padding: 10px;    
+    
+}
+
+.form-container input {
+    display: block; 
+    width: 90%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid var(--branco);
+    border-radius: 16px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.form-container input:focus {
+    border-color: var(--amarelo); 
+    color: var(--preto);
+    outline: none; 
+}
+
+.form-container input:focus::placeholder {
+    color: transparent; /* Faz o placeholder desaparecer */
+}
+
+input[type="url"] {
+    text-align: center;
+}    
+
+.botao-container {
+    display: flex;
+    gap: 24px; 
+    justify-content: center;    
+    border: none;
+    cursor: pointer;    
+}
+
+.botao-container .botao {
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    font-size: 18px; 
+    padding: 12px 24px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    cursor: pointer;           
+}
+
+.produto-detalhe {    
+    border-radius: 16px;
+    background-color: var(--vermelho);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box; /* Inclui padding na largura/altura */
+}
+
+.imagem-produto {
+    width: 210px; 
+    height: 264px;
+}
+
+/* Estilo específico para o botão "Adicionar" */
+.botao-container .botao {
+    background-color: var(--preto); 
+    color: var(--amarelo);
+    cursor: pointer; 
+}
+
+/* Hover para o botão "Adicionar" */
+.botao-container .botao:hover {
+    background-color: var(--amarelo); 
+    color: var(--preto);     
+}
+
+/*Rodapé*/
+
+footer {
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;    
+    bottom: 0;
+    width: 100%;
+}       
+
+/* Responsividade */
+
+/* Para Tablets (768px e acima) */
+@media (max-width: 768px) {
+
+    .main-container {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .produtos-cadastrados {
+        width: 100%;
+        margin-left: 0;
+        flex-wrap: wrap;
+        
+    }
+
+    .adicionar-produtos {
+        width: 100%;        
+    }
+
+    .imagem-produto {
+        width: 150px;
+        height: 200px;
+        
+    }
+
+    .titulo-produtos-cadastrados {
+        text-align: center;
+    }
+
+}
+
+/* Para Celulares (375px e abaixo) */
+@media (max-width: 475px) {
+  
+
+    .main-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .produtos-cadastrados {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .adicionar-produtos {        
+        width: 100%;
+    }
+
+    .imagem-produto {
+        width: 150px;
+        height: 200px;
+    }
+
+    .titulo-produtos-cadastrados {
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        
+    }
+}
+

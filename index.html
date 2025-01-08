@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIAUVERSO O universo dos gatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-site">Miauverso</h1> 
+        <img src="./assets/logo_miauverso.png" alt="Logotipo Miauverso" class="logo-site">                            
+    </header>
+
+    <main class="main-container">        
+        <section class="produtos-cadastrados">            
+            <h2 class="titulo-produtos-cadastrados">Produtos Cadastrados</h2>
+            <div data-produto class="produtos-container">
+            </div>
+        </section>            
+         
+        <section class="adicionar-produtos">
+            <h2 class="titulo-adicionar-produtos">Adicionar Produtos</h2>
+            <form class="form-container" data-form>
+                <input data-nome placeholder="nome do produto" type="text" class="nome-produto">
+                <input data-preco placeholder="preço do produto" type="text">
+                <input data-imagem placeholder="url do produto" type="url">
+                <span data-mensage class="mensagemErro"></span>
+                <div class="botao-container">
+                    <button data-adicionar class="botao">Enviar</button>
+                    <button data-cancelar class="botao">Limpar</button>
+                </div>        
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 desenvolvido por MARIA ESTHER</p>
+    </footer>
+    
+    <script src="/js/controllers/main.js" type="module"></script>        
+</body>
+</html>
