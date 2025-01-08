@@ -18,7 +18,7 @@ O design foi desenvolvido no Figma, onde modifiquei o tema e outros detalhes do 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-![Meu Badge](assets/meu-badge.png)
+![Meu Badge](assets/Badge-AluraGeek.png)
 
 ## 👩‍💻 Desenvolvedora
 Para saber mais sobre mim e meus projetos, visite meus perfis:
